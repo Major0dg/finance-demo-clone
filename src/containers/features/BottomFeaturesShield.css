@@ -1,0 +1,55 @@
+.bottom_feautures_shield_wrapper {
+  border-radius: 20px;
+  background-color: #eaecff;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  display: flex;
+  gap: 10px;
+}
+
+.bottom_features_Shield_check {
+  width: 96px;
+  height: 96px;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 200px;
+  opacity: 0.96;
+  background: rgba(45, 56, 168, 0.1);
+}
+
+.bottom_feautures_shield_heading {
+  color: #060a33;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  align-self: stretch;
+  justify-content: center;
+}
+
+.bottom_features_shield_text {
+  color: rgba(0, 0, 0, 0.64);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  align-self: stretch;
+  justify-content: center;
+}
+
+@media screen and (max-width: 550px) {
+  .bottom_feautures_shield_wrapper {
+    padding: 40px 24px;
+    gap: 20px;
+  }
+
+  .bottom_feautures_shield_heading {
+    font-size: 28px;
+  }
+}

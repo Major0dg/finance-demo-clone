@@ -1,0 +1,13 @@
+.call_to_action_photo img {
+  display: flex;
+  width: 576px;
+}
+
+@media screen and (max-width: 550px) {
+  .call_to_action_photo img {
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 385px;
+    height: 485px;
+  }
+}

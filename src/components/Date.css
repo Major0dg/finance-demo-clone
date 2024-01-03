@@ -1,0 +1,9 @@
+.year {
+  /* Text md/Normal */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  color: #98a2b3;
+}

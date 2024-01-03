@@ -1,0 +1,16 @@
+.button {
+  background-color: var(--Gray-800, #1d2939);
+  color: azure;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.form {
+  color: var(--Gray-900, #101828);
+  /* Display lg/Semibold */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 125% */
+}

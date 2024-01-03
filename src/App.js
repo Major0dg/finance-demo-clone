@@ -1,15 +1,16 @@
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import HeroSection from "./containers/Hero/HeroSection";
+import InstallKobodrop from "./components/Install-Kobodrop";
+import HomePage from "./pages/HomePage";
+import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <Navbar />
-        <HeroSection />
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route index element={<HomePage />} />
+        <Route path="/installkobodrop" element={<InstallKobodrop />} />
+      </Routes>
+    </Router>
   );
 }
 

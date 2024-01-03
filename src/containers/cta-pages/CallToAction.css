@@ -1,0 +1,81 @@
+.cta_page_container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.cta_heading {
+  color: var(--gray-900, #101828);
+
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.96px;
+  align-self: stretch;
+  padding-top: 70px;
+}
+
+.cta_app_buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.cta-apple_button {
+  fill: var(--Black, #000);
+  stroke-width: 1px;
+  stroke: #a6a6a6;
+  width: 132px;
+  height: 44px;
+}
+
+.cta_google_button {
+  border-radius: 5px;
+  border: 1px solid #a6a6a6;
+  background: var(--Black, #000);
+  width: 132px;
+  height: 44px;
+}
+
+@media screen and (max-width: 550px) {
+  .cta_page_container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+  .cta_heading {
+    align-items: center;
+    font-size: clamp(1.5rem, 2.5vw, 4rem);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    align-self: stretch;
+    margin-top: -120px;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  .cta_app_buttons {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+/*
+display: flex;
+padding: 64px 0px;
+flex-direction: column;
+align-items: center;
+gap: 48px;
+align-self: stretch;
+
+color: var(--gray-900, #101828);
+
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 38px; 
+*/

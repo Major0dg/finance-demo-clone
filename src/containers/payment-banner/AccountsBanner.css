@@ -1,0 +1,59 @@
+.account_banner_container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  gap: 20px;
+  background: #f3f6f8;
+  padding: 30px;
+}
+
+.account_banner_heading {
+  display: flex;
+  flex-direction: column;
+  color: #00112d;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  align-self: stretch;
+  margin-bottom: 15px;
+}
+
+.account_banner_paragraph {
+  color: rgba(0, 0, 0, 0.64);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 365px;
+}
+
+.account_bannner_media img {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 9.143px;
+  flex-wrap: wrap;
+  height: 220px;
+  margin-top: 20px;
+}
+
+.account_banner_text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+@media screen and (max-width: 550px) {
+  .account_banner_container {
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 48px;
+    align-items: center;
+    padding: 40px 24px;
+    align-self: stretch;
+  }
+}

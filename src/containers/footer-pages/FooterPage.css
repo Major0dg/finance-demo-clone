@@ -1,0 +1,118 @@
+.footer_column1_container {
+  background: var(--gray-800, #1d2939);
+  display: flex;
+  padding: 64px 0px 48px;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /*align-items: center; */
+  gap: 64px;
+  /* align-self: stretch; */
+  margin-top: 100px;
+}
+
+.footer_column1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin-top: -60px;
+}
+
+.footer_column1_text {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20.883px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.982px; /* 105.263% */
+}
+
+.footer_column1_paragraph {
+  color: var(--gray-200, #c7cacc);
+  /* Text md/Normal */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.column_paragraph_text {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #e4e7ec;
+  /* margin-top: -80px; */
+  list-style: none;
+  margin-top: -190px;
+}
+
+ul {
+  list-style: none;
+}
+
+.product {
+  color: var(--Gray-400, #98a2b3);
+  /* Text sm/Semibold */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+}
+
+.column_download_section {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: right;
+  align-items: center;
+  font-size: 16px;
+  color: #e4e7ec;
+  /* margin-top: -80px; */
+  list-style: none;
+  margin-top: -265px;
+  margin-left: 100px;
+}
+
+.download_text {
+  color: var(--White, #fff);
+  /* Text md/Medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.footer_download_button {
+  width: 135px;
+  height: 40px;
+}
+
+hr {
+  background: var(--Gray-600, #475467);
+  height: 2px;
+  align-self: stretch;
+  border-color: #475467;
+}
+
+.icons_date {
+  display: flex;
+  flex-direction: row;
+}
+
+.my_icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: right;
+  align-items: right;
+  margin-left: 950px;
+  color: gray;
+}
