@@ -20,7 +20,11 @@ const InstallKobodrop = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Registration successful");
+    console.log(formData)
+    alert(JSON.stringify(formData));
+    console.log({"email":`${formData.email}`})
+
+
   };
 
   return (
@@ -35,6 +39,7 @@ const InstallKobodrop = () => {
               name="firstName"
               value={formData.firstName}
               onChange={handleInputChange}
+              required="true"
             />
           </label>
           <br />
@@ -45,6 +50,7 @@ const InstallKobodrop = () => {
               name="lastName"
               value={formData.lastName}
               onChange={handleInputChange}
+              required="true"
             />
           </label>
           <br />
@@ -55,6 +61,7 @@ const InstallKobodrop = () => {
               name="email"
               value={formData.email}
               onChange={handleInputChange}
+              required="true"
             />
           </label>
           <br />
